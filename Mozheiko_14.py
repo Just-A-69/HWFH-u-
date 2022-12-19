@@ -34,3 +34,10 @@ def type_o_negative(data):
             if type(i) != int:
                 counter += len(i)
         print('Длина всех строк: ', counter)
+
+
+type_o_negative([1,2,3,'a','bc8?'])
+type_o_negative((1,2,3,'a','bc8?',7,8,9))
+type_o_negative(788)
+type_o_negative('788')
+type_o_negative(78.8)
