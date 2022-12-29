@@ -44,7 +44,4 @@ class Main_Function:
 
 a = Main_Function()
 a.first_method('AaBbCcDdEe!=_$*#')
-a.first_method(987)
-a.first_method(-987)
-a.first_method(9.87)
-a.first_method(-98.7)
+a.first_method(1234)
